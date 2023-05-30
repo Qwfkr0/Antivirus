@@ -1,15 +1,15 @@
 @echo off
-title VIRUS DE ACCESOS DIRECTOS
-color 1E
+title SHORTCUT VIRUSES
+color 0A
 @echo ---------------------------------------­­-----
-@echo REPARACION DE ARCHIVOS USB 
+@echo USB FILE REPAIR 
 @echo ---------------------------------------­­-----
-@echo Mostrando Carpetas
+@echo Showing Folders
 Attrib /d /s -r -h -s . 
 @echo ---------------------------------------­­-----
-@echo Eliminado Accesos Directos
+@echo Removed Shortcuts
 if exist *.lnk del *.lnk 
 @echo ---------------------------------------­­-----
-@echo Eliminado Autorun
+@echo Removing Autorun
 if exist autorun.inf del autorun.inf 
 @echo ---------------------------------------­­----
